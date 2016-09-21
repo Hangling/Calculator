@@ -12,6 +12,7 @@
 		7C69BF941D92588500AD58DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C69BF921D92588500AD58DF /* Main.storyboard */; };
 		7C69BF961D92588500AD58DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C69BF951D92588500AD58DF /* Assets.xcassets */; };
 		7C69BF991D92588500AD58DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C69BF971D92588500AD58DF /* LaunchScreen.storyboard */; };
+		7C69BFA11D9270C900AD58DF /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C69BFA01D9270C900AD58DF /* CalculatorBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		7C69BF951D92588500AD58DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C69BF981D92588500AD58DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C69BF9A1D92588500AD58DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C69BFA01D9270C900AD58DF /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				7C69BF951D92588500AD58DF /* Assets.xcassets */,
 				7C69BF971D92588500AD58DF /* LaunchScreen.storyboard */,
 				7C69BF9A1D92588500AD58DF /* Info.plist */,
+				7C69BFA01D9270C900AD58DF /* CalculatorBrain.swift */,
 			);
 			path = CalculatorByHangling;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C69BFA11D9270C900AD58DF /* CalculatorBrain.swift in Sources */,
 				7C69BF911D92588500AD58DF /* ViewController.swift in Sources */,
 				7C69BF8F1D92588500AD58DF /* AppDelegate.swift in Sources */,
 			);
